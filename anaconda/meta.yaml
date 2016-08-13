@@ -1,0 +1,20 @@
+package:
+  name: utility
+  version: "1.1"
+
+source:
+  url: https://github.com/JLessinger/py_utility/archive/v1.1.tar.gz
+  md5: f46254407c53253a193113e0b2a20ad7
+  sha1: 8338ee0a89fd4e062ac251a11ec7b293932fe4f5
+  sha256: da040567437ae550ae67558f636aaf6bc7e06ae25bfa20fef361a71afc65558c
+
+requirements:
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+
+about:
+  home: https://github.com/JLessinger/py_utility
+  license: GPL v3.0
