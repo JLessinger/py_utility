@@ -4,9 +4,9 @@ package:
 
 source:
   url: https://github.com/JLessinger/py_utility/archive/v1.1.tar.gz
-  md5: f46254407c53253a193113e0b2a20ad7
-  sha1: 8338ee0a89fd4e062ac251a11ec7b293932fe4f5
-  sha256: da040567437ae550ae67558f636aaf6bc7e06ae25bfa20fef361a71afc65558c
+  md5: 4b87d38e93e62df5fc5d326955616cee
+  sha1: 222461c11d84b0776916c391e6400953ed6bf35a
+  sha256: 8bbeb238e2353ea19abad9a72a690e58ed3a60085c6607edaf956cf8ede2f960
 
 requirements:
   build:
