@@ -7,12 +7,12 @@ class SmartHashable(object):
         return set([method for method in dir(self) if callable(getattr(self, method))])
 
     def _resolve_important(self):
-        return [getattr(self, d) for d in self._important]
-
-    def __hash__(self):
         if self._important is None:
             self._important = [d for d in dir(self) if d not in self._ignore
                                      and not d.startswith('__')]
+        return [getattr(self, d) for d in self._important]
+
+    def __hash__(self):
         return hash(tuple(self._resolve_important()))
 
     def __eq__(self, other):
